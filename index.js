@@ -7,7 +7,7 @@ function sum(fromN, toN) {
   }
 
   // if fromN < toN, add all number fromN toN
-  return fromN + sum(fromN + 1, toN)
+  return fromN + sum(fromN + 1, toN);
 }
 
 module.exports = sum;
